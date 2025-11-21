@@ -1,0 +1,42 @@
+{
+  "name": "buildcalc-modern",
+  "version": "1.0.0",
+  "description": "Современное приложение для строителей с минималистичным дизайном. Помогает быстро рассчитывать объемы бетона, количество плитки и конвертировать единицы измерений.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "calculator",
+    "construction",
+    "building",
+    "converter",
+    "units",
+    "concrete",
+    "tiles"
+  ],
+  "author": "Alexander Popcov",
+  "license": "MIT",
+  "homepage": "https://AlexanderPopcov.github.io/buildcalc-modern",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.0",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^5.0.0"
+  }
+}
